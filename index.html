@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Happy Valentine Day</title>
+    <title>Feliz dia da namorada</title>
   </head>
   <body>
     <div class="happy-valentines">
@@ -35,7 +35,19 @@
         <div class="text">
           <span>Feliz dia da namorada<br /></span>MEU AMOR!
         </div>
+        <div class="text2" style="display: none;">
+          <span>Você sempre será a minha menininha, a minha pincesaa! <br /></span>Eu te amo e amo!!!
+        </div>
       </div>
     </div>
+
+    <script>
+      setTimeout(() => {
+        const text1 = document.querySelector('.text');
+        const text2 = document.querySelector('.text2');
+        text1.style.display = 'none';
+        text2.style.display = 'block';
+      }, 7000); // 10 segundos
+    </script>
   </body>
 </html>
